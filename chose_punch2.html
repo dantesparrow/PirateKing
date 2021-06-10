@@ -87,8 +87,8 @@
 			song.volume = .3;
 			var heroAttackSound = new Audio('heroAttack.mp3');
 			var enemyAttackSound = new Audio('enemyAttack.mp3');
-			var runSound = new Audio('run.mp3');
-			var victorySound = new Audio('254644__klankbeeld__intro-brass-01.mp3');
+			//var runSound = new Audio('run.mp3');
+			var victorySound = new Audio('FF7 AC Victory Fanfare Ringtone (perfected mp3).mp3');
 			var songStarted = false;
 
 			function updateHeroHP(){
@@ -187,7 +187,7 @@
 				messageDiv.style.display = '';
 				song.pause();
 				victorySound.play();
-				setTimeout(goToWonPage, 10000);
+				setTimeout(goToWonPage, 5000);
 				
 			}
 
